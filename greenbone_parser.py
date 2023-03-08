@@ -276,11 +276,11 @@ if __name__ == "__main__":
     schema = GsmReportSchema()
 
     dump = schema.dumps(xml_data)
-    print("writing dump:")
+    print("writing dump: to " + dump_path)
     with open(dump_path, "w") as f:
         f.write(dump)
 
-    print("reading dump")
+    print("reading dumped json data")
     with open(dump_path, "r") as f:
         json_data = schema.loads(f.read())
 
