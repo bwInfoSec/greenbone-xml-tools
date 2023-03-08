@@ -13,7 +13,7 @@ The usage of a [venv](https://docs.python.org/3/library/venv.html) is strongly r
 
 ## Content 
 
-- **[greenbone_parser.py](greenbone_parser.py)**: A parser that extracts the useful information from a greenbone XML scan report. That result can be saved as JSON to further process the data. Usually the extracted JSON is minimum a order of magnitude smaller than the original XML which is also beneficial. Have a look into the codes `__main__` for a usage example.
+- **[greenbone_parser.py](greenbone_parser.py)**: A parser that extracts the useful information from a greenbone XML scan report. That result can be saved as JSON to further process the data. Usually the extracted JSON is minimum an order of magnitude smaller than the original XML which is also beneficial. Have a look into the codes `__main__` for a usage example.
 
 
 ## Licensing
